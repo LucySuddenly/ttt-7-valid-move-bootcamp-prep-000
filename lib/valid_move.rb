@@ -5,6 +5,6 @@ def valid_move?(board,index)
      board[index] != " " && board[index] != "" && board[index] != nil
   end 
   if position_taken?
-    
+    index.between?()
   end
 end
